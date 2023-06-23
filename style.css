@@ -213,16 +213,52 @@ footer p{
     
 }
 
-.action-icone{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: 150px;
-    max-width: 30%;
-    margin-left: 55%;
-}
-.action-icone a {
+
+.button-icone a {
     color: aliceblue;
-    height: 240px;
     font-size: 30px;
+    margin: 8px;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-font);
+    margin: 15px;
+}
+ /* animção */
+.logo{
+ animation-name: zoom;
+ animation-duration: 3s;
+}
+
+.logo:hover{
+    animation: hoverefects .5s infinite;
+
+}
+
+@keyframes zoom{
+    0%{
+        transform:scale(0) ;
+    }
+    50%{
+        transform:scale(1.1) ;
+    }
+    75%{
+        transform:scale(.9) ;
+    }
+    100%{
+        transform:scale(1) ;
+    }
+}
+@keyframes hoverEfects{
+    0%{
+        transform:scale(1) ;
+    }
+    50px{
+        transform:scale(.9) ;
+    }
+    100%{
+        transform:scale(1) ;
+    }
 }
