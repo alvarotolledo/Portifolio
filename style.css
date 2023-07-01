@@ -1,264 +1,73 @@
-:root{
-    --bg-body: #131416;
-    --color-font: #ffff;
-    --color-button:#0772EB;
-    --color-card: #1E212C;
-}
-
-.container{
-    max-width: 830px;
-    margin: auto;
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: var(--bg-body);
-}
-
-header .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-}
-
-.logo h2{
-    color: var(--color-font);
-}
-
-.logo img{
-    width: 45px;
-    height: 45px;
-    margin-right: 5px;
-}
-
-.section-1{
-    display: flex;
-    margin-top: 100px;
-}
-
-.action-title h2{
-    font-size: 40px;
-    color: var(--color-font);
-}
-
-.button{
-    background-color: var(--color-button);
-    display: inline-block;
-    padding: 15px 70px;
-    border-radius: 50px;
-    color: var(--color-font);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.ebook img{
-    width: 230px;
-    height: auto;
-    margin-right: 50px;
-}
- .ebook img{
-    height: 250px;
-    height: 250px;
-    border-radius: 50%;
- }
-.section-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 180px;
-}
-
-.section-2 h2{
-    color: var(--color-font);
-    text-transform: uppercase;
+    width:850px;
+    margin: 20px auto;
+    background-color:#F9F9F9;
     text-align: center;
 }
 
-.cards{
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    align-items: center;
+    font-size: 35px;
+    color:  rgba(0, 0, 0, 0.786);
+}
+
+.icones{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
+    width: 250px;
+    margin: 0% auto;
+    margin-top: 15px;
+    margin-bottom: 80px;
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--color-card);
+.icones img{
+    width:50px;
+    height:50px;
+}
+
+img{
+    height: 200px;
     width: 200px;
-    height: 180px;
-    border-radius: 10px;
-    color: var(--color-font);
-}
-
-.card img{
-    width: 65px;
-    height: 65px;
-}
-
-.section-3{
-    display: flex;
+    border-radius: 80%;
+    border: 3px solid  ;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
-.button-2{
-    display: inline-block;
-    background-color: #1E212C;
-    color: var(--color-font);
-    padding: 15px 30px;
-    border-radius: 50px;
-    font-weight: bold;
-}
-
-.section-3 h2{
-    font-size: 48px;
-    color: #0772EB;
-}
-
-.section-3 p{
-    color: var(--color-font);
-    margin-top: -25px;
+h2{
+  color: #FFBA0A;
+  margin-bottom: 15px;
 }
 
 footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #1C2029;
-    height: 100px;
-    padding-bottom: 40px;
+ position: absolute;
+ bottom: 2%;
+ text-align: center;
+ width: 850px;
+ margin: 0 auto;
+ 
 }
 
-/* .button-footer{
-    display: inline-block;
-    padding: 15px 70px;
-    background-color: var(--color-button);
-    border-radius: 50px;
-    color: var(--color-font);
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: -40px;
-} */
-
-footer p{
-    color: var(--color-font);
-    font-size: 14px;
-    margin-top: 50px;
+p{
+    color: gray;
 }
 
-@media (max-width: 420px){
-    .section-1{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .ebook img{
-        margin-right: 0px
-    }
-
-    .action-title{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-
-    .action-title h2{
-        font-size: 40px;
-        text-align: center;
-        font-size: 30px;
-        color: var(--color-font);
-    }
-
-    .button{
-        margin-top: 20px;
-    }
-
-    .cards{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card{
-        margin-top: 40px;
-    }
-
-    .section-3 h2{
-        text-align: center;
-        font-size: 30px;
-    }
-
-    .section-3 p{
-        font-size: 14px;
-    }
-
-    
+h3{
+    color: rgba(0, 0, 0, 0.786)
 }
-
-
-.button-icone a {
-    color: aliceblue;
-    font-size: 30px;
-    margin: 8px;
-
-}
-
 a{
+    color:  rgba(0, 0, 0, 0.786);
     text-decoration: none;
-    color: var(--color-font);
-    margin: 15px;
-}
- /* animção */
-.logo{
- animation-name: zoom;
- animation-duration: 3s;
+    line-height: 22px;
+    margin-top: 15px;
 }
 
-.logo:hover{
-    animation: hoverefects .5s infinite;
-
-}
-
-@keyframes zoom{
-    0%{
-        transform:scale(0) ;
-    }
-    50%{
-        transform:scale(1.1) ;
-    }
-    75%{
-        transform:scale(.9) ;
-    }
-    100%{
-        transform:scale(1) ;
-    }
-}
-@keyframes hoverEfects{
-    0%{
-        transform:scale(1) ;
-    }
-    50px{
-        transform:scale(.9) ;
-    }
-    100%{
-        transform:scale(1) ;
-    }
-}
