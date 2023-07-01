@@ -75,3 +75,14 @@ a:hover{
     color: #c131a9;
 }
 
+/* responsivo */
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    } 
+    footer{
+        width: auto;
+        margin: auto;
+    }
+
+}
