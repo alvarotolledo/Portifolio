@@ -103,10 +103,11 @@ h3:hover{
         margin-top: 200px;
     } 
     footer{
+        position: absolute;
+        bottom: 2%;
         text-align: center;
-        width: 500px;
-        margin: auto;
-        
+        width: auto;
+        margin-left:125px;
     }
 
     p{
