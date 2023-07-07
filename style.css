@@ -103,6 +103,7 @@ h3:hover{
         margin-top: 200px;
     } 
     footer{
+        display:none;
         position: absolute;
         bottom: 2%;
         text-align: center;
