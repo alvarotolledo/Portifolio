@@ -112,6 +112,7 @@ h3:hover {
     font-size: 12px;
   }
   .rodape{
+    display:none;
     width: auto;
     margin-left: 33%;
   }
