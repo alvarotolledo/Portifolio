@@ -87,6 +87,7 @@ span {
 h3:hover {
   color: #000000;
   transition: 0.35s;
+  
 }
 
 h3:hover {
@@ -117,8 +118,12 @@ h3:hover {
     font-size: 12px;
   }
   .rodape{
-    width: auto;
-    margin-left: 28%;
+    /* width: 300px;
+    text-align: center; */
+  }
+  footer{
+   display: none;
+
   }
 }
 
@@ -138,6 +143,27 @@ h3:hover {
 
   .icones {
     width: 175px;
+    ;
   }
+  a:hover {
+    color: #c131a9;
+  }
+  
+  span {
+    font-weight: bolder;
+  }
+  
+  h3:hover {
+    color: #000000;
+    transition: 0.35s;
+    
+  }
+  
+  h3:hover {
+    color: #c131a9;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: 0.5s;
+  }  
+  
 }
-
