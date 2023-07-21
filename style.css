@@ -8,7 +8,7 @@ body {
   margin: 20px auto;
   background-color: #f9f9f9;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 #darkmode{
@@ -19,7 +19,7 @@ body {
 h1 {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 50px;
   align-items: center;
   font-size: 35px;
   color: rgba(0, 0, 0, 0.786);
@@ -30,7 +30,7 @@ h1 {
   justify-content: space-around;
   width: 280px;
   margin: 0% auto;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 50px;
 }
 
@@ -54,11 +54,12 @@ h2 {
 }
 
 footer {
-    position: absolute;
-    bottom:0;
-    left: 0;
-    right: 0;
-}
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+  right: 0%;
+  /* width: 850px;
+  margin: 0 auto; */
 }
 
 p {
@@ -105,7 +106,7 @@ h3:hover {
 @media (max-width: 600px) {
   body {
     width: auto;
-    margin-top: 200px;
+    margin-top: 300px;
   }
 
   p {
@@ -116,15 +117,17 @@ h3:hover {
 @media (max-width:600px) {
   h3 {
     font-size: 12px;
+    ;
   }
   .rodape{
     /* width: 300px;
     text-align: center; */
   }
   footer{
-      position: absolute;
-      margin-bottom: 0;
-
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+  right: 0%;
 
   }
 }
@@ -165,7 +168,12 @@ h3:hover {
     color: #c131a9;
     font-weight: bolder;
     font-size: 15px;
-    transition: 0.5s;
+    transform: none;
   }  
-  
+  .linksuteis{
+    width: 200px;
+    text-align: center;
+    margin: 5% auto;
+  }
 }
+
