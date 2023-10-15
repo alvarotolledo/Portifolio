@@ -50,7 +50,6 @@ img {
 
 h2 {
   color: #ffba0a;
-  margin-bottom: 15px;
 }
 
 footer {
@@ -147,12 +146,10 @@ h3:hover {
   }
 
   .icones {
-    width: 175px;
-    ;
+    width: 955px;
   }
-  a:hover {
-    color: #c131a9;
-  }
+
+
   
   span {
     font-weight: bolder;
@@ -165,15 +162,17 @@ h3:hover {
   }
   
   h3:hover {
-    color: #c131a9;
     font-weight: bolder;
     font-size: 15px;
     transform: none;
   }  
+
+
   .linksuteis{
     width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin: 5% auto;
+    margin: 15% auto;
   }
 }
 
